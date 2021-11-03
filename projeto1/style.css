@@ -1,0 +1,84 @@
+#bot{
+  text-align: center;
+  margin: 0 auto;
+  width: 600px;
+ font-size: 50px;
+ border-radius: 10px;
+ 
+}
+
+
+.verde {
+  background-color: green;
+}
+.vermelho {
+  background-color: red;
+}
+.azul {
+ background-color: blue;
+}
+.amarelo {
+  background-color: yellow;
+}
+
+
+
+.botao {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  
+}
+
+
+.botaovermelho {
+
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  margin-left: 10px;
+  border-radius: 10%;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.botaoazul{
+
+  width: 200px;
+  height: 100px;
+  background-color: blue;
+  margin-left: 10px;
+  border-radius: 10%;
+  font-size: 50px;
+  cursor: pointer;
+
+}
+
+.botaoverde {
+
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  margin-left: 10px;
+  border-radius: 10%;
+  font-size: 50px;
+  cursor: pointer;
+
+
+}
+
+.botaoamarelo {
+
+  width: 200px;
+  height: 100px;
+  background-color: rgb(250, 250, 70);
+  margin-left: 10px;
+  border-radius: 10%;
+  font-size: 50px;
+  cursor: pointer;
+  
+
+}
