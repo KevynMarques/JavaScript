@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Urna Eletrônica</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="urna">
+        <!-----------------------Tela direita----------------->
+        <div class="tela">
+        <div class="d-1">
+          <div class="d1esquerda">
+         <div class="voto">
+        <span>SEU VOTO PARA:</span>
+        </div>
+         <div class="candidato">
+        <span>PREFEITO</span>
+         </div>
+         <div class="numeros">
+          <div class="digitos pisca"></div>
+          <div class="digitos"></div>
+         </div>
+         <div class="info">
+           Nome: 
+           partido: 
+           vice:
+           etc :
+         </div>
+        </div>
+
+          <!--tela a direita--------------->
+          <div class="direita">
+
+            <div class="conteudoDireita1">
+            <img  class="big" src="./imagens/salsicha.png" alt="prefeito">
+          </div>
+
+          <div class="conteudoDireita2">
+         <img  class="small" src="" alt="vice">
+          </div>
+          </div>
+        </div>
+        <div class="avisos">
+          Aperte a tecle<br />
+          CONFIRMA para confirmar este voto<br />
+          CORRIGE para reiniciar este voto<br />
+        </div>
+      </div>
+
+      <!---------------TECLADO E SEUS BOTOES--------------->
+      <div class="teclado">
+        <div>
+          <button class="botao n1" onclick="clicou('1')">1</button>
+          <button class="botao n2" onclick="clicou('2')">2</button>
+          <button class="botao n3" onclick="clicou('3')">3</button>
+          <button class="botao n4" onclick="clicou('4')">4</button>
+          <button class="botao n5" onclick="clicou('5')">5</button>
+          <button class="botao n6" onclick="clicou('6')">6</button>
+          <button class="botao n7" onclick="clicou('7')">7</button>
+          <button class="botao n8" onclick="clicou('8')">8</button>
+          <button class="botao n9" onclick="clicou('9')">9</button>
+          <button class="botao n0" onclick="clicou('0')">0</button>
+        </div>
+        <!----------------------telcas especiais ------------->
+
+        <div class="especial">
+          <button class="branco" onclick="branco('')">BRANCO</button>
+          <button class="corrige" onclick="corrige('')">CORRIGE</button>
+          <button class="confirma" onclick="confirma('')">CONFIRMA</button>
+        </div>
+      </div>
+    </div>
+    <div class="legenda">
+     Vereadores : 44444, 38111 <br/>
+      Prefeito : 99, 84 
+    </div>
+
+    
+    <script type="text/javascript" src="./etapas.js"></script>
+    <script type="text/javascript" src="./Script.js"></script>
+  </body>
+</html>
+
+
